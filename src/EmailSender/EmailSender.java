@@ -25,7 +25,7 @@ public class EmailSender {
 		prop.put("mail.smtp.ssl.trust", "smtp.gmail.com");
 
 		String myEmail = "noreplysharesimulator@gmail.com";
-		String myPwd = "sharesimulator";
+		String myPwd = "YOURPASSWORDHERE";
 
 		Session session = Session.getInstance(prop, new Authenticator() {
 			@Override
